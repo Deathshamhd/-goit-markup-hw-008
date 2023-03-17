@@ -90,7 +90,7 @@ img {
 }
 
 .all-pages__bttn {
-  background-color: white;
+  background-color: #f5f4fa;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -104,8 +104,8 @@ img {
   cursor: pointer;
 }
 
-.web-pages__bttn:hover,
-.web-pages__bttn:focus {
+.all-pages__bttn:hover,
+.all-pages__bttn:focus {
   background-color: #2196F3;
   color: #FFFFFF;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -1235,54 +1235,54 @@ img {
   overflow: hidden;
 }
 
-.portfolio-projects {
+.portfolio {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-left: 0px;
 }
 @media screen and (min-width: 768px) {
-  .portfolio-projects {
+  .portfolio {
     flex-basis: 50%;
     justify-content: space-between;
   }
 }
 @media screen and (min-width: 1200px) {
-  .portfolio-projects {
+  .portfolio {
     flex-basis: 33.3333333333%;
   }
 }
 
-.project-naming {
+.project__naming {
   border-left: 1px solid #FFFFFF;
   border-right: 1px solid #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
   padding: 24px 20px;
 }
 
-.portfolio-projects__item {
+.projects__item {
   cursor: pointer;
   margin-top: 30px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-projects__item:hover {
+.projects__item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.portfolio-projects__item:hover .overlay {
+.projects__item:hover .overlay {
   transform: translateY(0);
 }
 
-.portfolio_projects__overflow-block {
+.projects__overflow-block {
   position: relative;
   overflow: hidden;
 }
 @media screen and (min-width: 768px) {
-  .portfolio_projects__overflow-block > img {
+  .projects__overflow-block > img {
     width: 340px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .portfolio_projects__overflow-block > img {
+  .projects__overflow-block > img {
     width: 370px;
   }
 }
@@ -1308,7 +1308,7 @@ img {
   padding: 63px 24px;
 }
 
-.project-naming__example {
+.project__naming {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -1316,7 +1316,7 @@ img {
   margin-bottom: 4px;
 }
 
-.project-naming__type {
+.project__type {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;

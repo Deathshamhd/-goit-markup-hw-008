@@ -30,7 +30,7 @@
 }
 
 .all-pages__bttn{
-    background-color: white;
+    background-color: #f5f4fa;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -43,8 +43,8 @@
     transition: color  250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow  250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
 }
-.web-pages__bttn:hover,
-.web-pages__bttn:focus{
+.all-pages__bttn:hover,
+.all-pages__bttn:focus{
     background-color:$accent-color;
     color: $main-bg-color;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
