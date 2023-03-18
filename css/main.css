@@ -1169,7 +1169,7 @@ img {
   fill: currentColor;
 }
 
-.products-section__title {
+.what-section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -1178,12 +1178,12 @@ img {
   margin-bottom: 50px;
 }
 
-.products-section {
+.what-section {
   padding-top: 0px;
   display: none;
 }
 @media screen and (min-width: 1200px) {
-  .products-section {
+  .what-section {
     display: flex;
   }
 }
