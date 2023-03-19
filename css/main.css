@@ -486,6 +486,11 @@ img {
   text-decoration: none;
   color: #2196F3;
 }
+@media screen and (max-width: 425px) {
+  .mobile-menu-media__link {
+    font-size: smaller;
+  }
+}
 .mobile-menu-media__link > span {
   margin-right: 10px;
   margin-left: 10px;
