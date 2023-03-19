@@ -1236,54 +1236,54 @@ img {
   overflow: hidden;
 }
 
-.portfolio {
+.portfolio-projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-left: 0px;
 }
 @media screen and (min-width: 768px) {
-  .portfolio {
+  .portfolio-projects {
     flex-basis: 50%;
     justify-content: space-between;
   }
 }
 @media screen and (min-width: 1200px) {
-  .portfolio {
+  .portfolio-projects {
     flex-basis: 33.3333333333%;
   }
 }
 
-.project__naming {
+.project-naming {
   border-left: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
   padding: 24px 20px;
 }
 
-.projects__item {
+.portfolio-projects__item {
   cursor: pointer;
   margin-top: 30px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.projects__item:hover {
+.portfolio-projects__item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.projects__item:hover .overlay {
+.portfolio-projects__item:hover .overlay {
   transform: translateY(0);
 }
 
-.projects__overflow-block {
+.portfolio_projects__overflow-block {
   position: relative;
   overflow: hidden;
 }
 @media screen and (min-width: 768px) {
-  .projects__overflow-block > img {
+  .portfolio_projects__overflow-block > img {
     width: 340px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .projects__overflow-block > img {
+  .portfolio_projects__overflow-block > img {
     width: 370px;
   }
 }
@@ -1309,7 +1309,7 @@ img {
   padding: 63px 24px;
 }
 
-.project__naming {
+.project-naming__example {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -1317,12 +1317,11 @@ img {
   margin-bottom: 4px;
 }
 
-.project__type {
+.project-naming__type {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
-  padding: 0 0 24px 20px;
 }
 
 /* Units Files *//*# sourceMappingURL=main.css.map */
